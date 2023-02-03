@@ -1,0 +1,163 @@
+<!-- Versionning --> 
+<!--
+    Page        : 'contact'
+    Version     : '1.0.1'
+    Date        : '27.01.23'
+    Auteur      : 'MIS/KCL'
+    Description : 'Page Contact site CV
+-->
+<!--
+ChangeLog   : 09.01.2023 1.0.0 KCL: création de la page contact.
+            : 30.01.2023 1.0.1 KCL: ajout du contenu.
+
+
+-->
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>contact</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="../CSS/style2.css" type="text/css" media="screen" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</head>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-dark p-0">
+      <div class="container-fluid bg-dark">
+        <a class="navbar-brand" href="CV_1.0.4.html">Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="CV_1.0.4.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="About_1.0.2.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Projects_1.0.2.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Contacts</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <!--fin du menu-->
+   
+    <!--début mes contatacts-->
+    <div class="p-5 bg-dark-subtle text-black text-center rounded">
+      <h1>Mes contacts</h1>
+      <h4>Sur cette page vous trouverez tous les moyens de me contacter.</h4>
+  </div>
+  <!--fin mes contatacts-->
+    
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+  
+  <div class="container p-5">
+      <div class="row">
+          <div class="col">
+              <nav aria-label="breadcrumb">
+                  <ol class="breadcrumb">
+                      <li class="breadcrumb-item"><a href="CV_1.0.4.html">Home</a></li>
+                      <li class="breadcrumb-item active" aria-current="page">Contact</li>
+                  </ol>
+              </nav>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col">
+              <div class="card">
+                  <div class="card-header bg-primary text-white"><i class="fa fa-envelope"></i> Contact
+                  </div>
+                  <div class="card-body">
+                      <form>
+                          <div class="form-group">
+                              <label for="name">Nom</label>
+                              <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Entrer nom" required>
+                          </div>
+                          <div class="form-group">
+                            <label for="name">Prénom</label>
+                            <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Entrer prénom" required>
+                          </div>
+                          <div class="form-group">
+                              <label for="email">Adresse mail</label>
+                              <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Entrer mail" required>
+                              
+                          </div>
+                          <!--début-->
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input bg-primary" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                            <label class="form-check-label" for="inlineRadio1">Homme</label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input bg-primary" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                            <label class="form-check-label" for="inlineRadio2">Femme</label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input bg-primary" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                            <label class="form-check-label" for="inlineRadio3">Autre</label>
+                          </div>
+                          
+                          <!---->
+                          <div class="form-group">
+                              <label for="message">Message</label>
+                              <textarea class="form-control" id="message" rows="6" required></textarea>
+                          </div>
+                          <!---->
+                          <div class="form-check form-switch">
+                            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+                            <label class="form-check-label" for="flexSwitchCheckChecked">Rester informer des prochaines mises à jour du site web.</label>
+                          </div>
+                          <!---->
+                          <div class="mx-auto">
+                            <a href="mailto:kylian_clerc@icloud.com"><button type="submit" class="btn btn-primary text-right">Envoyer</button></a>
+                          </div>
+                      </form>
+                  </div>
+              </div>
+          </div>
+          <div class="col-12 col-sm-4">
+              <div class="card bg-light mb-3">
+                  <div class="card-header bg-success text-white text-uppercase"><i class="fa fa-home"></i> Adresse</div>
+                  <div class="card-body">
+                      <p>Route de la Menthue 1</p>
+                      <p>1041 Dommartin</p>
+                      <p>Suisse</p>
+                      <p>Mail : kylian_clerc@icloud.com</p>
+                      <p>Tel. +41 78 677 21 40</p>
+  
+                  </div>
+  
+              </div>
+          </div>
+      </div>
+  </div>
+  
+  <!--début du footer-->
+  <footer class="footer bg-black">
+    <div class="container text-center p-3">
+        <span>© 2023 Copyright 01.02.2023</span> 
+            <a class="text-white span-12" href="https://www.instagram.com/kylianclerc/?hl=fr" target="_blank">Kylian Clerc</a>
+    </div> 
+</footer>
+<!--fin du footer-->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
+
+
+
+
+
+
+
+ 
